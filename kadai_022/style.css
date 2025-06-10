@@ -31,6 +31,9 @@ main {
 .contents{
     border: 3px solid rgb(238, 204, 204);
     flex-basis: 25%;
+
+    /* この25％は何に対しての25％なのか？ */
+    
     padding: 10px 15px;
     margin: 20px 0px;
     text-align: center;
@@ -52,6 +55,9 @@ h2::before {
 }
 .contents > img {
     width: 70%;
+
+    /* この70％は何に対しての70％か？親要素？contents? */
+
     margin: 10px 0;
 }
 
